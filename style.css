@@ -112,7 +112,6 @@ color: #000000;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
-   
     
 }
 .section-title_course{
@@ -135,6 +134,7 @@ h3.course-title{
 }
 .course{
     margin-bottom: 24px;
+    margin-right: 10px;
 
 }
 .course-card{
@@ -142,15 +142,15 @@ h3.course-title{
     border-radius: 20px;
     filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
     background-color: rgb(255, 255, 255);
-    padding:11px;
-    padding-right: 15px;
-
-    
+    margin:7%;  
 }
 .course .course-banner img{
-    width: 250px;
-    height: 118px;
+    width: 224px;
+    height: 109px;
     
+}
+.course-detail{
+    padding: 0 2px 0 2px;
 }
 .course-info{
     display: flex;
@@ -219,7 +219,7 @@ span{
         grid-template-columns: repeat(2, 1fr);
     }
     .blogs, .courses{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .player, .blog{  
         flex-direction: column;
