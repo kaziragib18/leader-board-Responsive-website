@@ -11,17 +11,75 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
-
 }
+/* ---------Navigation design----- */
+/* .header-nav{
+    position: absolute;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 10%;
+    left: 0px;
+    top: 0px;
+    background: #562EFF;
+  }
+  
+  .logo{
+    display: flex;
+    padding-left: 15%;
+    margin: 5px 0 0 1px;
+  }
+
+  .logo-title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color:white;
+    padding: 7px 5px 5px 10px;
+    margin-top: 0 ;
+      
+  }
+  
+  #nav-bar{
+      padding-right: 15%;
+
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 12px 0;
+    margin: 0 16px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .nav-img{
+    padding-top: -10px;
+    margin-top: -5px;
+    width: 36px;
+    height: 36px;
+
+} */
 
 .container{
     background-color: rgb(255, 255, 255);
     width: 870px;
     padding: 30px ;
     border-radius: 10px;
-    margin-top: 21px;
+    margin-top: 33px;
     margin-bottom: 19px;
 }
 
@@ -207,6 +265,10 @@ span{
     }
     .player, .blog{  
         flex-direction: column;
+    }
+    .header-nav{
+        grid-template-columns: repeat(1, 1fr);
+       
     }
 
 }
