@@ -72,6 +72,18 @@ margin-bottom: 31px;
     grid-column-gap: 33px;
 
 }
+h3.blog-title{   
+    margin-top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+
+
+
+color: #000000;
+}
 .blog{
     display: flex;
 }
@@ -113,10 +125,17 @@ margin-bottom: 31px;
     padding-left: 10px;
 
 }
+h3.course-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.0336px;
+    line-height: 23px;
+    color: #1E1E1E;
+}
 .course{
     margin-bottom: 24px;
-   
-    
+
 }
 .course-card{
     border: 5px rgb(218, 214, 214);
@@ -125,7 +144,7 @@ margin-bottom: 31px;
     background-color: rgb(255, 255, 255);
     padding:11px;
     padding-right: 15px;
-    margin: 0;
+
     
 }
 .course .course-banner img{
@@ -139,9 +158,11 @@ margin-bottom: 31px;
     justify-content: flex-start;
 }
 .course-duration{
+    font-family: Open Sans;
     background-color: #FFE4E8;
     color: #FF4A60;
     border-radius: 14.6913px;
+    padding: 3px 10px 3px 10px;
 }
 
 .fa-star{
@@ -156,7 +177,17 @@ margin-bottom: 31px;
     color: #AEAEAE;
 
 }
+
+p.course{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.6913px;
+    line-height: 17px;
+    color: #ED6B4F;
+}
 span{
     padding-left: 10px;
-    padding-right: 30px;
+    padding-right: 40px;
+    color: #A2A2A2;
 }
