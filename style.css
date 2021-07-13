@@ -170,6 +170,7 @@ color: #000000;
 .container-course{
     background-color: rgb(255, 255, 255);
     width: 870px;
+    height: 362px;
     padding: 30px ;
     border-radius: 10px;
     margin-top: 5px;
@@ -261,12 +262,40 @@ span{
     padding-right: 20px;
     color: #A2A2A2;
 }
+/* video */
+.container-iframe{
+    background-color: rgb(255, 255, 255);
+    width: 870px;
+    height: 470px;
+    padding: 30px ;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.video{
+    width: 100%;
+    height: 100%;
+}
+.responsive-iframe {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
 /* Media Queries */
 /* For Mobile devices */
 
 @media only screen and (max-width:688px) {
-    .container, .container-course{
+    .container, .container-course, .container-iframe {
         width: 100%;
+        height: 100%;
         justify-content: center;
         align-items: center;
     }
@@ -280,12 +309,14 @@ span{
     .player, .blog{  
         flex-direction: column;
     }
+    
 
 }
 /* Tablet Devices */
 @media only screen and (min-width: 688px) and (max-width: 992px){
     .container, .container-course{
         width: 100%;
+        height: 100%;
     }
     .players{
         grid-template-columns: repeat(2, 1fr);
@@ -296,5 +327,5 @@ span{
     .player, .blog{  
         flex-direction: column;
     }
-    
+   
 }
