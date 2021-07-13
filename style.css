@@ -30,7 +30,6 @@ main{
     padding-left: 15%;
     margin: 5px 0 0 1px;
   }
-
   .logo-title{
     font-family: Poppins;
     font-style: normal;
@@ -41,11 +40,9 @@ main{
     margin-top: 0 ;
       
   }
-
   
   #nav-bar{
       padding-right: 15%;
-
   }
   nav ul {
     display: flex;
@@ -73,7 +70,6 @@ main{
     margin-top: -5px;
     width: 36px;
     height: 36px;
-
 } */
 
 .container{
@@ -110,6 +106,7 @@ margin-bottom: 31px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
+    margin-left: 10px;
 }
 .player{
     display: flex;
@@ -130,6 +127,8 @@ margin-bottom: 31px;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 26px;
     grid-column-gap: 33px;
+    margin-left: 10px;
+
 
 }
 h3.blog-title{   
@@ -168,11 +167,20 @@ color: #000000;
 
 }
 /* ------------Courses Style--------- */
+.container-course{
+    background-color: rgb(255, 255, 255);
+    width: 870px;
+    padding: 30px ;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+
+}
 .courses{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
-    
+    margin-left: -2%;
 }
 .section-title_course{
     font-weight: 500;
@@ -180,8 +188,8 @@ color: #000000;
     line-height: 36px;
     color: #562EFF;
     margin-top: 0px;
-    margin-bottom: 12px;
-    padding-left: 10px;
+    margin-bottom: 0px;
+    
 
 }
 h3.course-title{
@@ -205,19 +213,19 @@ h3.course-title{
     padding-left: 10px ;
     padding-top: 10px;
     margin:6%;  
+    width: 83%;
 }
 .course .course-banner img{
-    width: 224px;
-    height: 109px;
+    width: 100%;
+    height: 100%;
     
 }
 .course-detail{
-    padding: 0 2px 0 2px;
+    padding: 0 3px 0 3px;
 }
 .course-info{
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between
 }
 .course-duration{
     font-family: Open Sans;
@@ -257,8 +265,10 @@ span{
 /* For Mobile devices */
 
 @media only screen and (max-width:688px) {
-    .container{
+    .container, .container-course{
         width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     .players { 
         grid-template-columns: repeat(2, 1fr);
@@ -274,7 +284,7 @@ span{
 }
 /* Tablet Devices */
 @media only screen and (min-width: 688px) and (max-width: 992px){
-    .container{
+    .container, .container-course{
         width: 100%;
     }
     .players{
